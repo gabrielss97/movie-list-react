@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.movie-item {
+    background-color: #eee;
+    padding: 3% 1%;
+    width: 92%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.col-12 {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-excerpt {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    margin: 10% 0;
+}
+
+.back {
+    position: relative;
+    left: 374px;
+    bottom: 4px;
+}
