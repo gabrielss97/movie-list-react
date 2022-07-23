@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+.movie-item img {
+    max-width: 100%;
+}
+
 .col-12 {
     display: flex;
     justify-content: center;
@@ -33,4 +37,18 @@ h1 {
     position: relative;
     left: 374px;
     bottom: 4px;
+}
+
+.main-header {
+    text-align: center;
+    padding: 30px;
+}
+
+.nav-link {
+    margin-bottom: 30px;
+    background-color: #eee;
+    border: solid 1px black;
+    border-radius: 5px;
+    margin:0 5px 20px;
+    color: black;
 }

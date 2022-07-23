@@ -8,8 +8,7 @@ export const Home = () => {
   const getMovies = async () => {
     const {data:{results}} = await MovieService.getMovies();
     //foi criada uma classe MovieService com um metodo getMovies que retorna o axios que é equivalente ao fetch, usando a desestruturação da pra pegar direto os results de dentro da propriedade data
-    console.log(results);
-
+    
     setMovies(results)
     //joga o array de objetos do results na variavel movies
   };
